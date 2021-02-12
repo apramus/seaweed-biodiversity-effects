@@ -1,6 +1,7 @@
 # Repo for Ramus & Long (In Review)
+#`seaweed-multiDivPart: additive partition of seaweed biodiversity effects across trophic levels`
 
-This repository contains the data and code used to replicate the analysis and figures presented in
+This repository contains the data and code used to replicate all analyses and figures presented in
 
 Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link]
 
