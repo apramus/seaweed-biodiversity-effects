@@ -1,10 +1,9 @@
 # seaweed-multiDivPart: additive partition of seaweed biodiversity effects across trophic levels
 
-# Repo for Ramus & Long (In Review)
-
 This repository contains the data and code used to replicate the analysis and figures presented in
 
-Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link]
+Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link] (fdsfd)
+{sfgsfdgs}
 
 `The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
@@ -12,10 +11,20 @@ The files contained by this repository are numbered sequentially in the order th
 
 ## `1-ramus-thesis-data-cleaned.csv`
 
-  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+`1` | Variable | Description
+
+
+Field | `Name` | `Description` | `Units`
+:---: | -- | -- | --
+1 | `sample` | ddd | ddd
+2 | Content Cell |
+3 |
+
+`1` `data` 
+
+`1` `data` 
+`Field` `Variable` `Description`
+
 
 The data used to generate all analyses and figures presented in the paper. 
 
@@ -45,8 +54,8 @@ time-averaged value of each variable measured monthly in each plot over the cour
 A brief description of each variable is given below. The suffix `.sr` denotes supporting responses only measured near the end of the experiment. 
 
 
-1.	‘Data’ 	
-2.	‘Species’ macroalga	
+1.	`Data` 	
+2.	`Species` macroalga	
 3.	ProBiomassInitial
 4.	Deployed 
 5.	Sampled
@@ -84,7 +93,10 @@ Field 4 | Name: Week | Definition: Experimental duration in weeks (1-12)
 Field 5 | Name: Block | Definition: Block identification number (1-35)
 Field 6 | Name: Location | Definition: Location of block (1-35) in randomized line, with 1 being the farthest South
 Field 7 | Name: ProDivTrtType | Definition: Producer diversity treatment type (Mono or Poly)
-Field 8 | Name: ProDivTrtRich | Definition: Producer diversity treatment richness, the number of producer species (1, 3, or 4)
+Field 8 | Name: ProDivTrtRich | Definition: 
+
+treatment richness, the number of macroalgal species (1, 3, or 4)
+
 Field 9 | Name: ProDivTrtID | Definition: Producer diversity treatment identifier (Cf, Gt, Gv, Gg, NM, IM, or CM)
 Field 10 | Name: CfBiomass | Definition: Wet biomass of Cf in grams
 Field 11 | Name: GtBiomass | Definition: Wet biomass of Gt in grams
