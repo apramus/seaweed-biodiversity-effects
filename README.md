@@ -1,6 +1,8 @@
+# seaweed-multiDivPart: additive partition of seaweed biodiversity effects across trophic levels
+
 # Repo for Ramus & Long (In Review)
 
-This repository contains the data and code used to replicate all analyses and figures presented in
+This repository contains the data and code used to replicate the analysis and figures presented in
 
 Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link]
 
@@ -9,6 +11,11 @@ Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richnes
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need R installed with the cowplot, dplyr, ecodist, egg, ggplot2, MASS, plyr, reshape2, and vegan libraries, including their dependencies.
 
 ## `1-ramus-thesis-data-cleaned.csv`
+
+  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
 
 The data used to generate all analyses and figures presented in the paper. 
 
