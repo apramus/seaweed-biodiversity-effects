@@ -1,2 +1,1 @@
-# seaweed-multiDivPart
-Repo for Ramus & Long (In Review) focusing on the additive partition of seaweed biodiversity effects across trophic levels
+# seaweed-multiDivPart: Data and Code from Ramus & Long (In Review) focusing on the additive partition of seaweed biodiversity effects across trophic levels
