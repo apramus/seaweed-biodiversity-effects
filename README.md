@@ -2,12 +2,13 @@
 
 This repository contains the data and code used to replicate all analyses and figures presented in
 
- Markup : * Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link]
+Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Pages. [doi link]
 
 `The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need R installed with the cowplot, dplyr, ecodist, egg, ggplot2, MASS, plyr, reshape2, and vegan libraries, including their dependencies.
-## `1-ramus-thesis-data-cleaned.csv’
+
+## `1-ramus-thesis-data-cleaned.csv`
 
 The data used to generate all analyses and figures presented in the paper. 
 
