@@ -1,5 +1,5 @@
 # Repo for Ramus & Long (In Review)
-#`seaweed-multiDivPart: additive partition of seaweed biodiversity effects across trophic levels`
+# `seaweed-multiDivPart: additive partition of seaweed biodiversity effects across trophic levels`
 
 This repository contains the data and code used to replicate all analyses and figures presented in
 
