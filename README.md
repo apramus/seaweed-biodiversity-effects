@@ -11,9 +11,14 @@ This repository contains the data and code used to replicate the analysis and fi
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need the latest version of R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggplot2`, `MASS`, `plyr`, `reshape2`, and `vegan` libraries, including their dependencies. 
 
-## `1-ramus-thesis-data-cleaned.csv`
+## `1-ramus-thesis-data-cleaned.csv` <- rename? does it nead to be cleaneD?
 
-The cleaned dataset used to generate all analyses and figures presented in the paper. These data represent the yield of individual component species in mixture and plot-level sum of each variable, in each treatment, measured on a weekly basis over the course of the 12 week experiment. For complete methodology, see the corresponding article or [Ramus & Long (2016) *J Ecol*](https://doi.org/10.1111/1365-2745.12509). A brief description of each variable is given below. 
+The cleaned dataset used to generate all analyses and figures presented in the paper. These data represent the yield of individual component species in mixture and plot-level sum of each variable, in each treatment, measured on a weekly basis over the course of the 12 week experiment. For complete methodology, see the corresponding article or [Ramus & Long (2016) *J Ecol*](https://doi.org/10.1111/1365-2745.12509). 
+
+Similar to our previous work, these data 
+
+
+A brief description of each variable is given below. 
 
 Field | Variable | Description 
 :---: | :--- | :--- 
@@ -45,7 +50,7 @@ Field | Variable | Description
 26 | Pycnogonids | Abundance of pycnogonid pantopod crustaceans
 27 | Shrimps | Abundance of palaemonid and penaeid decapod crustaceans
 28 | Xanthids | Abundance of xanthid decapod crustaceans
-29 | Others | Abundance of ‘other’ heterotrophs that were either unidentifiable or did not belong to the taxonomic groups in fields 18-28
+29 | Others | Abundance of ‘other’ heterotrophs that either were unidentifiable or did not fit into fields 18-28 (12 of 42309 individuals sampled)
 30 | ConAbund | Consumer abundance, the total number of individual consumers (sum of fields 18-29)
 31 | ConBiomass | Consumer biomass, the total dry mass of consumers in grams
 32 | ConDivRich | Consumer richness, the total number of consumer taxa present (in fields 18-29)
