@@ -7,7 +7,7 @@ This repository contains the data and code used to replicate the analysis and fi
 
 * Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Page-Range. [doi link]
 
-`The authors request that you cite the above article when using these data or modified code to prepare a publication.`
+`*The authors request that you cite the above article when using these data or modified code to prepare a publication.*`
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need the latest version of R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggplot2`, `MASS`, `plyr`, `reshape2`, and `vegan` libraries, including their dependencies. 
 
@@ -17,8 +17,8 @@ The cleaned dataset used to generate all analyses and figures presented in the p
 
 Field | Variable | Description 
 :---: | :--- | :--- 
-1 | Data | Distinguishes plot-level ‘sum’ from its component ‘parts’ in mixtures (used for subsetting)
-2 | Species | Macroalgal species ‘sown’ in treatment (*Codium fragile*, *Gracilaria tikvahiae*, *Gracilaria vermiculophylla*, *Gymnogongrus griffithsiae*)
+1 | Data | Distinguishes plot-level ‘sum’ from its component ‘parts’ in mixtures (for subsetting)
+2 | Species | Macroalgal species ‘sown’ in treatment
 3 | ProBiomassInitial | Initial sown wet mass of macroalgae
 4 | Deployed | Date deployed
 5 | Sampled | Date sampled
@@ -27,13 +27,13 @@ Field | Variable | Description
 8 | Block | Block identification number (1-35)
 9 | Location | Location of block (1-35) within a randomized line, with 1 being the farthest South
 10 | ProDivTrtType | Producer diversity treatment type (Mono or Poly)
-11 | ProDivTrtRich | Producer diversity treatment richness, the number of producer species (1, 3, or 4)
-12 | ProDivTrtID | Producer diversity treatment identifier (Cf, Gt, Gv, Gg, NM, IM, or CM)
+11 | ProDivTrtRich | Producer diversity treatment richness, the number of producer species (1, 3, 4)
+12 | ProDivTrtID | Producer diversity treatment identifier (Cf, Gt, Gv, Gg, NM, IM, CM)
 13 | CfBiomass | Wet biomass of *Codium fragile* in grams
 14 | GtBiomass | Wet biomass of *Gracilaria tikvahiae* in grams
 15 | GvBiomass | Wet biomass of *Gracilaria vermiculophylla* in grams
 16 | GgBiomass | Wet biomass of *Gymnogongrus griffithsiae* in grams
-17 | ProBiomass | Total wet biomass of macroalgae in grams (sum of fields 10-13)
+17 | ProBiomass | Total wet biomass of macroalgae in grams (sum of fields 13-16)
 18 | Amphipods | Abundance of gammaridean amphipod crustaceans
 19 | Bivalves | Abundance of bivalve molluscs
 20 | Caprellids | Abundance of caprellid amphipod crustaceans
@@ -45,10 +45,10 @@ Field | Variable | Description
 26 | Pycnogonids | Abundance of pycnogonid pantopod crustaceans
 27 | Shrimps | Abundance of palaemonid and penaeid decapod crustaceans
 28 | Xanthids | Abundance of xanthid decapod crustaceans
-29 | Others | Abundance of ‘other’ heterotrophs that either were unidentifiable or did not belong to any of the aforementioned taxonomic groups (fields 15-25)
-30 | ConAbund | Consumer abundance, the total number of individual consumers (sum of fields 15-26)
+29 | Others | Abundance of ‘other’ heterotrophs that were either unidentifiable or did not belong to the taxonomic groups in fields 18-28
+30 | ConAbund | Consumer abundance, the total number of individual consumers (sum of fields 18-29)
 31 | ConBiomass | Consumer biomass, the total dry mass of consumers in grams
-32 | ConDivRich | Consumer richness, the total number of unique consumer taxa present in fields 15-26
+32 | ConDivRich | Consumer richness, the total number of consumer taxa present (in fields 18-29)
 
 ## `2-effects-on-secondary-production.R`
 
