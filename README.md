@@ -2,7 +2,7 @@
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
-Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* IssuePage-Range. [doi link]
+Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* Issue:Page-Range. [doi link]
 
 `The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
@@ -11,11 +11,10 @@ The files contained by this repository are numbered sequentially in the order th
 
 ## `1-ramus-thesis-data-cleaned.csv’
 
-Dataset used to generate all analyses and figures presented in the paper. 
+The dataset used to generate all analyses and figures presented in the paper. 
 
-For complete methodology and a detailed description of the experiment and methodologies used, see either the paper named above or 
-
-For complete methodology, see Ramus et al., 2017 (doi:10.1073/pnas.1700353114). 
+For complete methodology,
+see the corresponding article named above or 
 
 
 In summary:
@@ -35,8 +34,10 @@ time-averaged value of each variable measured monthly in each plot over the cour
 
 For complete methodology, see the corresponding article named above or `Ramus AP, Long ZT (2016) Producer diversity enhances consumer stability in a benthic marine community. *Journal of Ecology* 104:572-579. https://doi.org/10.1111/1365-2745.12509`. 
 
-In brief: The experiment was carried out adjacent to the rock revetment located within Zeke’s Island National Estuarine Research Reserve (33.95 N, 77.94 W or 33.9567, -77.9481 or as link) in North Carolina, USA. 
+In brief: The experiment was carried out adjacent to the rock revetment located within Zeke’s Island National Estuarine Research Reserve ([33.95, -77.94] https://goo.gl/maps/T1XRRBfyCFSUjCWC8) in North Carolina, USA.
 
+ We manipulated macroalgal identity and richness in seven treatments 
+ 
 These data represent the yields of individual macroalgal species in treatment plots 
 Measured weekly in each treatment block (plot) 
 Both the individual species component 
