@@ -4,7 +4,7 @@ This repository contains the data and code used to replicate the analysis and fi
 
 Ramus AP, Long ZT (In Review) Effects of macroalgal species identity and richness on secondary production in benthic marine communities. *Journal* IssuePage-Range. [doi link]
 
-`The authors request that you cite the above article when using these data or modified code to prepare a publication. For more information, contact Aaron Ramus (aaron.ramus@gmail.com).`
+`The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggplot2`, `MASS`, `plyr`, `reshape2`, and `vegan` libraries, including their dependencies. 
 
@@ -15,11 +15,16 @@ Dataset used to generate all analyses and figures presented in the paper.
 
 For complete methodology and a detailed description of the experiment and methodologies used, see either the paper named above or 
 
-For complete methodology, see Ramus et al., 2017 (doi:10.1073/pnas.1700353114). In summary:
+For complete methodology, see Ramus et al., 2017 (doi:10.1073/pnas.1700353114). 
+
+
+In summary:
 The experiment was carried out on intertidal mud and sandflats located within the Zeke’s Island National Estuarine Research Reserve (33.95 N, 77.94 W), North Carolina, USA.
 These data represent the yields of individual macroalgal species in treatment plots 
 Measured weekly in each treatment block (plot) 
 Of a 12 week experiment conducted in situ along 
+
+We followed the development of consumer communities in each treatment for 12 weeks in situ. 
 
 time-averaged value of each variable measured monthly in each plot over the course of a 10 month experiment carried out on intertidal mud and sandflats located within the Zeke’s Island National Estuarine Research Reserve (33.95 N, 77.94 W), North Carolina, USA.
 
@@ -28,9 +33,9 @@ Yield of individual species in mixtures, plot-level data, multitrophic
 
 time-averaged value of each variable measured monthly in each plot over the course of the 10 month experiment. 
 
-For complete methodology, see either the corresponding article named above `Ramus AP, Long ZT (2016) Producer diversity enhances consumer stability in a benthic marine community. *Journal of Ecology* 104:572-579. https://doi.org/10.1111/1365-2745.12509`. In summary:
+For complete methodology, see the corresponding article named above or `Ramus AP, Long ZT (2016) Producer diversity enhances consumer stability in a benthic marine community. *Journal of Ecology* 104:572-579. https://doi.org/10.1111/1365-2745.12509`. 
 
-The experiment was carried out on intertidal mud and sandflats located within the Zeke’s Island National Estuarine Research Reserve (33.95 N, 77.94 W or 33.9567, -77.9481 or as link), North Carolina, USA. 
+In brief: The experiment was carried out adjacent to the rock revetment located within Zeke’s Island National Estuarine Research Reserve (33.95 N, 77.94 W or 33.9567, -77.9481 or as link) in North Carolina, USA. 
 
 These data represent the yields of individual macroalgal species in treatment plots 
 Measured weekly in each treatment block (plot) 
