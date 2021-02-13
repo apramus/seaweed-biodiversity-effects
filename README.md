@@ -16,7 +16,7 @@ The files contained by this repository are numbered sequentially in the order th
 The cleaned dataset used to generate all analyses and figures presented in the paper. These data represent the yield of individual component species in mixtures and the plot-level sum of each treatment, for each variable, measured on a weekly basis over the course of the 12 week experiment. For complete methodology, see the corresponding article or [Ramus & Long (2016) *J Ecol*](https://doi.org/10.1111/1365-2745.12509). A brief description of each variable is given below. 
 
 Field | Variable | Description 
---- | --- | --- 
+:---: | :--- | :--- 
 1 | Data | Distinguishes plot-level ‘sum’ from its component ‘parts’ in mixtures (used for subsetting)
 2 | Species | Macroalgal species ‘sown’ in treatment (*Codium fragile*, *Gracilaria tikvahiae*, *Gracilaria vermiculophylla*, *Gymnogongrus griffithsiae*)
 3 | ProBiomassInitial | Initial sown wet mass of macroalgae
