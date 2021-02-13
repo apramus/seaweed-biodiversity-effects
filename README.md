@@ -1,4 +1,5 @@
-# Repo for Ramus & Long (In Review) focusing on the additive partition of seaweed biodiversity effects across trophic levels
+# Repo for Ramus & Long (In Review) 
+## "Additive partition of seaweed biodiversity effects across trophic levels"
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
