@@ -55,13 +55,9 @@ Field | Variable | Description
 
 ## `2-effects-on-secondary-production.R`
 
-Here we focus on our most resolved data from the final 12 weeks of the experiment. 
-
-ANOVA
-
 Code to replicate the primary analysis of ecosystem multifunctionality as presented in Ramus et al. (2017) PNAS. This code calculates multifunctionaity, fits candidate models using nonlinear least squares for each function individually, and generates the model selection table and corresponding figure presented in the paper.
-
-used to generat the following
+Here we focus on our most resolved data from the final 12 weeks of the experiment. 
+performs one way ANOVAs, used to generat the following:
 
 ## `3-effects-on-consumer-composition.R`
 
