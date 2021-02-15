@@ -53,7 +53,7 @@ Field | Variable | Description
 31 | ConBiomass | Consumer biomass, the total dry mass of consumers in grams
 32 | ConDivRich | Consumer richness, the total number of consumer taxa present (in fields 18-29)
 
-Throughout our analysis below we focus on ou most resolved data from the final four weeks of the experiment. 
+Throughout the analysis below we focus on our most resolved data from the final four weeks of the experiment. 
 
 ## `2-effects-on-secondary-production.R`
 
