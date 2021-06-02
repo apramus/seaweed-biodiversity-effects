@@ -57,7 +57,7 @@ Throughout the analysis below we focus on our most resolved data from the final 
 
 ## `2-effects-on-secondary-production.R`
 
-Code to analyze the effects of macroalgal identity and richness on the three complementary metrics of secondary production. This code performs one-way ANOVAs on untransformed, log transformed, nautral log transformed, and squart root transformed versions of each response variable individually and generates an ANOVA summary table of the results, plots histograms of the corresponding distributions, and generates Figure 1 presented in the paper.
+Code to analyze the effects of macroalgal identity and richness on the three complementary metrics of secondary production. This code performs one-way ANOVAs on untransformed, log transformed, nautral log transformed, and squart root transformed versions of each response variable individually and generates an ANOVA summary table of the results, plots histograms of the corresponding distributions, and generates Figure 1 presented in the paper. Also peforms Tukey's HSD post-hoc analysis for each consumer response variable and generates a summary table of the results.
 
 ## `3-effects-on-consumer-composition.R`
 
@@ -73,4 +73,4 @@ This code works as a 'manual loop' inside code 4a above, for lack of a better de
 
 ## `4c-t-test-on-partition.R`
 
-This code performs t-tests to assess whether net biodiversity and its component selection and complementarity effects differ from 0 (as negative values are interpreted as "no effect") for each response variable.
+This code performs t-tests to assess whether net biodiversity and its component selection and complementarity effects statistically differ from 0 (as negative values are interpreted as "no effect") for each response variable.
