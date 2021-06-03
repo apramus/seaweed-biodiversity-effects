@@ -73,4 +73,4 @@ This code works as a 'manual loop' inside code 4a above, for lack of a better de
 
 ## `4c-t-test-on-partition.R`
 
-This code performs one sample t-tests to assess whether the net biodiversity and its component selection and complementarity effects in each treatment statistically differ from 0 (as negative values are interpreted as "no effect") and generates a summary table of the results. These t-tests are performed on the transformed biodiversity effect components for each consumer response variable.
+This code performs one sample t-tests to assess whether the net biodiversity and its component selection and complementarity effects in each treatment statistically differ from 0 (as negative values are interpreted as "no effect") and generates a summary table of the results. These t-tests are performed on the square-root transformed biodiversity effect components for each consumer response variable.
