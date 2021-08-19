@@ -2,7 +2,6 @@
 [//]: # (Repo for Ramus & Long In Review)
 [//]: # (Additive partition of seaweed biodiversity effects across trophic levels)
 # Additive partition of seaweed biodiversity effects across trophic levels
-![Figure_1. Structural equation model.pdf](https://github.com/apramus/seaweed-trophicDivPart/files/7018144/Figure_1.Structural.equation.model.pdf)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
