@@ -11,7 +11,7 @@ This repository contains the data and code used to replicate the analysis and fi
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need the latest version of R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggplot2`, `MASS`, `plyr`, `reshape2`, and `vegan` libraries, including their dependencies. 
 
-## `1-ramus-thesis-data-cleaned.csv`
+## `0-ramus-thesis-data-cleaned.csv`
 
 The cleaned dataset used to generate all analyses and figures presented in the paper. These data represent the yields of individual component species in mixture, as well as the summed response of each treatment, for each response variable measured on a weekly basis over the course of the 12 week experiment. For complete methodology, see the corresponding article above or [Ramus & Long (2016) *J Ecol*](https://doi.org/10.1111/1365-2745.12509). A brief description of each variable is given below. 
 
@@ -54,6 +54,10 @@ Field | Variable | Description
 32 | ConDivRich | Consumer richness, the total number of consumer taxa present (in fields 18-29)
 
 Throughout the analysis below we focus on our most resolved data from the final four weeks of the experiment. 
+
+## `1-structural-equation-model.R`
+
+Add text
 
 ## `2-effects-on-secondary-production.R`
 
