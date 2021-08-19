@@ -2,8 +2,7 @@
 [//]: # (Repo for Ramus & Long In Review)
 [//]: # (Additive partition of seaweed biodiversity effects across trophic levels)
 # Additive partition of seaweed biodiversity effects across trophic levels
-![sem](figures-and-tables/Figure_1. Structural equation model.pdf)
-![ecoregion slope map](Figures/HLM_slope_maps/ecoregion_slope_map.jpg)
+![image](figures-and-tables/Figure_1. Structural equation model.pdf)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
