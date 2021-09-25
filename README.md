@@ -2,7 +2,7 @@
 [//]: # (Repo for Ramus & Long In Review)
 [//]: # (Additive partition of seaweed biodiversity effects across trophic levels)
 # Seaweed biodiversity effects across trophic levels
-https://zenodo.org/badge/338374883.svg
+[![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
