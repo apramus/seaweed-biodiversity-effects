@@ -1,8 +1,7 @@
 [//]: # (seaweed-trophicDivPart: Additive partition of seaweed biodiversity effects across trophic levels)
 [//]: # (Repo for Ramus & Long In Review)
 [//]: # (Additive partition of seaweed biodiversity effects across trophic levels)
-# Seaweed biodiversity effects across trophic levels
-# Repo for Ramus et al. In Review
+# Seaweed biodiversity effects across trophic levels: Repo for Ramus et al. In Review
 [![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
@@ -12,6 +11,8 @@ This repository contains the data and code used to replicate the analysis and fi
 `The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need the latest version of R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggh4x`, `ggplot2`, `MASS`, `nlme`, `piecewiseSEM`, `plyr`, `reshape2`, `tidyverse`, and `vegan` libraries, including their dependencies. 
+
+# Data and Code
 
 ## `0-ramus-thesis-data-cleaned.csv`
 
