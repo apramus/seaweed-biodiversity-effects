@@ -13,9 +13,13 @@
 ![image](https://user-images.githubusercontent.com/11825056/166707686-4f541b12-ee01-44d5-a2d4-badd86769b31.png)
 [![Figure_4.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_4.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_4.pdf) The net biodiversity effect partitioned into its component complementarity and selection effects for each response variable (rows) in multispecies treatments. Invertebrate abundance (a), biomass (b), and taxonomic richness (c), and macroalgal wet mass (d). Colors correspond to the three biodiversity effect components as indicated in the legend. Points were calculated from time-averaged response of each replicate over the final 4 weeks (n = 5 for all treatments) and all values were square root transformed with the original sign preserved (Loreau and Hector 2001). Axis scales for biodiversity effect components are equivalent for each response variable (within rows), but not across response variables (among rows). Responses above the black line at 0 are positive whereas those below are negative (see Appendix S1: Table S3 for results of t-tests).
 
-## `Figure_S1.pdf` 
+![image](https://user-images.githubusercontent.com/11825056/166711735-d41205f2-fcb9-4213-a560-90c2282ae680.png)
+[![Figure_S1.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf) 
 
-[![Figure_2.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_2.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_2.pdf) 
+![image](https://user-images.githubusercontent.com/11825056/166711902-061fb6c1-a059-4f0b-957f-297bb1a3ebf3.png)
+[![Figure_S2.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf) 
+
+
 
 ## `Figure_S2.pdf`
 
