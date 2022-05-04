@@ -7,6 +7,8 @@ library(ggplot2)
 library(egg)
 library(ggh4x)
 
+# restart R after running code #1 otherwise the other codes will not work
+
 # load data and organize factors
 data <- read.csv("0-ramus-thesis-data-cleaned.csv")
 data$ProDivTrtID <- factor(data$ProDivTrtID, levels=c("Cf", "Gt", "Gv", "Gg", "NM", "IM", "CM"))
@@ -32,18 +34,18 @@ melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="Gt", paste("Gracilaria tikvahiae")
 melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="Gv", paste("Gracilaria vermiculophylla"), paste(melt$ProDivTrtID))
 melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="Gg", paste("Gymnogongrus griffithsiae"), paste(melt$ProDivTrtID))
 melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="NM", paste("3 species native"), paste(melt$ProDivTrtID))
-melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="IM", paste("3 species invasive"), paste(melt$ProDivTrtID))
+melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="IM", paste("3 species nonnative"), paste(melt$ProDivTrtID))
 melt$ProDivTrtID <- ifelse(melt$ProDivTrtID=="CM", paste("4 species"), paste(melt$ProDivTrtID))
-melt$ProDivTrtID <- factor(melt$ProDivTrtID, levels=c("Codium fragile", "Gracilaria tikvahiae", "Gracilaria vermiculophylla", "Gymnogongrus griffithsiae", "3 species native", "3 species invasive", "4 species"))
+melt$ProDivTrtID <- factor(melt$ProDivTrtID, levels=c("Codium fragile", "Gracilaria tikvahiae", "Gracilaria vermiculophylla", "Gymnogongrus griffithsiae", "3 species native", "3 species nonnative", "4 species"))
 melt$ProDivTrtType <- ifelse(melt$ProDivTrtType=="Mono", paste("Monocultures"), paste(melt$ProDivTrtType))
 melt$ProDivTrtType <- ifelse(melt$ProDivTrtType=="Poly", paste("Polycultures"), paste(melt$ProDivTrtType))
 melt$ProDivTrtType <- factor(melt$ProDivTrtType, levels=c("Monocultures", "Polycultures"))
 
-melt$variable <- ifelse(melt$variable=="ProBiomass2", paste("Macroalgal wet mass (g)"), paste(melt$variable))
-melt$variable <- ifelse(melt$variable=="ConAbund", paste("Invertebrate abundance (#)"), paste(melt$variable))
-melt$variable <- ifelse(melt$variable=="ConBiomass", paste("Invertebrate biomass (g)"), paste(melt$variable))
-melt$variable <- ifelse(melt$variable=="ConDivRich", paste("Invertebrate richness (# of taxa)"), paste(melt$variable))
-melt$variable <- factor(melt$variable, levels=c("Invertebrate abundance (#)",  "Invertebrate biomass (g)", "Invertebrate richness (# of taxa)", "Macroalgal wet mass (g)"))
+melt$variable <- ifelse(melt$variable=="ProBiomass2", paste("Macroalgal\nwet mass\n(g)"), paste(melt$variable))
+melt$variable <- ifelse(melt$variable=="ConAbund", paste("Invertebrate\nabundance\n(#)"), paste(melt$variable))
+melt$variable <- ifelse(melt$variable=="ConBiomass", paste("Invertebrate\nbiomass\n(g)"), paste(melt$variable))
+melt$variable <- ifelse(melt$variable=="ConDivRich", paste("Invertebrate\nrichness\n(# of taxa)"), paste(melt$variable))
+melt$variable <- factor(melt$variable, levels=c("Invertebrate\nabundance\n(#)",  "Invertebrate\nbiomass\n(g)", "Invertebrate\nrichness\n(# of taxa)", "Macroalgal\nwet mass\n(g)"))
 
 # select the most resolved data from the final 4 weeks of the experiment
 melt <- subset(melt, Week > 8)
@@ -64,7 +66,7 @@ melt.summary
 str(melt.summary)
 melt.summary <- as.data.frame(melt.summary)
 
-melt.summary$variable <- factor(melt.summary$variable, levels = c("Invertebrate abundance (#)",  "Invertebrate biomass (g)", "Invertebrate richness (# of taxa)", "Macroalgal wet mass (g)"))
+melt.summary$variable <- factor(melt.summary$variable, levels = c("Invertebrate\nabundance\n(#)",  "Invertebrate\nbiomass\n(g)", "Invertebrate\nrichness\n(# of taxa)", "Macroalgal\nwet mass\n(g)"))
 
 # perform one-way anovas for each response variable and stuff it into a data frame with pretty labels for plotting
 library(plyr)
@@ -99,7 +101,7 @@ stats
 
 # plot it
 pAll <- ggplot(aes(x=ProDivTrtID, y=mean), data = melt.summary) +
-   facet_wrap2(~factor(variable, levels=c("Invertebrate abundance (#)",  "Invertebrate biomass (g)", "Invertebrate richness (# of taxa)", "Macroalgal wet mass (g)")), scales = "free_y", ncol=1, strip.position="left", remove_labels = "x", axes="x") + #, labeller = label_wrap_gen(width=23)) +
+   facet_wrap2(~factor(variable, levels=c("Invertebrate\nabundance\n(#)",  "Invertebrate\nbiomass\n(g)", "Invertebrate\nrichness\n(# of taxa)", "Macroalgal\nwet mass\n(g)")), scales = "free_y", ncol=1, strip.position="left", remove_labels = "x", axes="x") + #, labeller = label_wrap_gen(width=23)) +
    #facet_wrap(~variable, scales = "free_y", ncol=1, strip.position="left") +
    geom_boxplot(alpha=0.5, colour="grey85", aes(group=ProDivTrtType)) + 
    #geom_boxplot(width=0.5, aes(fill=ProDivTrtID), position=position_dodge(0.75), outlier.shape = NA) +
@@ -114,7 +116,7 @@ pAll <- ggplot(aes(x=ProDivTrtID, y=mean), data = melt.summary) +
       #axis.text = element_text(color="black"),
       #panel.grid=element_blank(), 
       #panel.border = element_rect(color=NA),
-      aspect.ratio=0.55,
+      #aspect.ratio=0.55,
       #axis.line.x = element_line(color = "black", size=1),
       #panel.border=element_blank(),
       axis.text = element_text(colour="black"),
@@ -135,10 +137,14 @@ pAll <- pAll +
    #theme(aspect.ratio=1)
    #ylab(paste(eval(plot.name)))
 print(pAll)
-ggsave(pAll, file="./figures-and-tables/Figure2.pdf", dpi=1200, height=6, width=3)
-#tiff(filename="./figures-and-tables/Figure2.tiff", height=6*800, width=3*800, units="px", res=800, compression="lzw")
-#print(pAll)
-#dev.off()
+ggsave(pAll, file="./figures-and-tables/Figure_2.pdf", dpi=1200, height=5.5, width=3)
+tiff(filename="./figures-and-tables/Figure_2.tif", height=5.5*800, width=3*800, units="px", res=800, compression="lzw")
+print(pAll)
+dev.off()
+
+#For figures generated in R, we suggest creating a TIF file using the following setting:
+#Tiff(filename=”FigX.tif”,height=5600,width=5200,units=”px”,res=800,compression=”lzw”)
+
 
 
 # perform log, natural log, and sqrt transforms of means used in the above plot
@@ -250,6 +256,9 @@ write.csv(stats, "./output/anova-summary-table-for-effects-on-response-metrics.c
 
 # tukeys hsd for consumer responses
 
+melt.summary$variable <- gsub("\n", " ", melt.summary$variable)
+melt.summary$variable <- factor(melt.summary$variable, levels = c("Invertebrate abundance (#)",  "Invertebrate biomass (g)", "Invertebrate richness (# of taxa)", "Macroalgal wet mass (g)"))
+
 # subset by respnse variable
 ca <- subset(melt.summary, variable == "Invertebrate abundance (#)")
 cb <- subset(melt.summary, variable == "Invertebrate biomass (g)")
@@ -292,4 +301,4 @@ t$"P-Value" <- ifelse(t$"P-Value"<0.001, paste("<0.001"), t$"P-Value")
 t
 
 # save Tukeys as .csv for comparison
-write.csv(t, "./figures-and-tables/TableS2.csv")
+write.csv(t, "./figures-and-tables/Data_S1.csv")

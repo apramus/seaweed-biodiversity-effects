@@ -21,9 +21,9 @@ data$ProDivTrtID <- ifelse(data$ProDivTrtID=="Gt", paste("Gracilaria tikvahiae")
 data$ProDivTrtID <- ifelse(data$ProDivTrtID=="Gv", paste("Gracilaria vermiculophylla"), paste(data$ProDivTrtID))
 data$ProDivTrtID <- ifelse(data$ProDivTrtID=="Gg", paste("Gymnogongrus griffithsiae"), paste(data$ProDivTrtID))
 data$ProDivTrtID <- ifelse(data$ProDivTrtID=="NM", paste("3 species native"), paste(data$ProDivTrtID))
-data$ProDivTrtID <- ifelse(data$ProDivTrtID=="IM", paste("3 species invasive"), paste(data$ProDivTrtID))
+data$ProDivTrtID <- ifelse(data$ProDivTrtID=="IM", paste("3 species nonnative"), paste(data$ProDivTrtID))
 data$ProDivTrtID <- ifelse(data$ProDivTrtID=="CM", paste("4 species"), paste(data$ProDivTrtID))
-data$ProDivTrtID <- factor(data$ProDivTrtID, levels=c("Codium fragile", "Gracilaria tikvahiae", "Gracilaria vermiculophylla", "Gymnogongrus griffithsiae", "3 species native", "3 species invasive", "4 species"))
+data$ProDivTrtID <- factor(data$ProDivTrtID, levels=c("Codium fragile", "Gracilaria tikvahiae", "Gracilaria vermiculophylla", "Gymnogongrus griffithsiae", "3 species native", "3 species nonnative", "4 species"))
 
 # subset for sums
 sum <- subset(data, Data=="Sum")
@@ -84,7 +84,7 @@ stats
 write.csv(stats, "./output/permanova-summary-table.csv")
 
 # create experession list of names for pretty legend
-names <- expression(italic(paste("Codium fragile")), italic(paste("Gracilaria tikvahiae")), italic(paste("Gracilaria vermiculopylla")), italic(paste("Gymnogongrus griffithsiae")), "3 species native", "3 species invasive", "4 species")
+names <- expression(italic(paste("Codium fragile")), italic(paste("Gracilaria tikvahiae")), italic(paste("Gracilaria vermiculopylla")), italic(paste("Gymnogongrus griffithsiae")), "3 species native", "3 species nonnative", "4 species")
 
 # calculate convex hulls
 detach(package:plyr)
@@ -140,37 +140,39 @@ nmds1 <- ggplot(all, aes(X1, X2)) +
 
 #theme_get()
 nmds1
-ggsave(nmds1, file="./figures-and-tables/Figure3.pdf", height=3, width=3, dpi=1200)
-#tiff(filename="./figures-and-tables/Figure3.tiff", height=3*800, width=3*800, units="px", res=800, compression="lzw")
-#print(nmds1)
-#dev.off()
+ggsave(nmds1, file="./figures-and-tables/Figure_3.pdf", height=3, width=3, dpi=1200)
+
+tiff(filename="./figures-and-tables/Figure_3.tif", height=3*800, width=3*800, units="px", res=800, compression="lzw")
+print(nmds1)
+dev.off()
 
 
 ##### planned contrasts (pairwise betweem treatments) #####
 
 # create data frame to stuff information in
+pairs <- NULL
 pairs <- data.frame(contrast=c(
    "Gracilaria tikvahiae - Codium fragile",
    "Gracilaria vermiculophylla - Codium fragile",
    "Gymnogongrus griffithsiae - Codium fragile",
    "3 species native - Codium fragile",
-   "3 species invasive - Codium fragile",
+   "3 species nonnative - Codium fragile",
    "4 species - Codium fragile",
    "Gracilaria vermiculophylla - Gracilaria tikvahiae",
    "Gymnogongrus griffithsiae - Gracilaria tikvahiae",
    "3 species native -Gracilaria tikvahiae",
-   "3 species invasive - Gracilaria tikvahiae",
+   "3 species nonnative - Gracilaria tikvahiae",
    "4 species - Gracilaria tikvahiae",
    "Gymnogongrus griffithsiae - Gracilaria vermiculophylla",
    "3 species native - Gracilaria vermiculophylla",
-   "3 species invasive - Gracilaria vermiculophylla",
+   "3 species nonnative - Gracilaria vermiculophylla",
    "4 species - Gracilaria vermiculophylla",
    "3 species native - Gymnogongrus griffithsiae",
-   "3 species invasive - Gymnogongrus griffithsiae",
+   "3 species nonnative - Gymnogongrus griffithsiae",
    "4 species - Gymnogongrus griffithsiae",
-   "3 species invasive -  3 species native",
+   "3 species nonnative -  3 species native",
    "4 species - 3 species native",
-   "4 species - 3 species invasive"
+   "4 species - 3 species nonnative"
    ), f.model=0, r2=0, p.value=0)
  
 ### Cf vs. ###
@@ -351,5 +353,5 @@ pairs$sig <- ifelse(pairs$"P-Value"<0.05, paste("*"), paste(""))
 
 
 # write to csv
-write.csv(pairs, "./figures-and-tables/TableS3.csv")
+write.csv(pairs, "./figures-and-tables/Table_S2.csv")
 

@@ -81,4 +81,4 @@ modsum$Response <- gsub("_", " ", modsum$Response)
 modsum$Predictor <- gsub("_", " ", modsum$Predictor)
 colnames(modsum)[4:8] <- c("SE", "DF", "t-Value", "P-Value", "Std. Estimate")
 modsum
-write.csv(modsum, "./figures-and-tables/TableS1.csv")
+write.csv(modsum, "./figures-and-tables/Table_S1.csv")
