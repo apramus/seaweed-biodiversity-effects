@@ -1,7 +1,6 @@
 # Figure Legends and Table Captions
 
 ![image](https://user-images.githubusercontent.com/11825056/166707019-eabaf3e2-8463-4577-8057-9fc6e493ac5d.png)
-
 [![Figure_1.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_1.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_1.pdf) Final observed structural equation model relating experimentally manipulated macroalgal richness to properties of both the macroalgae and associated invertebrate consumer communities (see Appendix S1: Figure S2 for the null hypothesized model). Arrows represent directed effects (i.e., the flow of causality from one variable to another). Standardized regression coefficients are shown next to the arrows in units of standard deviation of the mean, such that they can be compared fairly across response variables of differing units. Arrow widths are scaled by the standardized coefficients (see Appendix S1: Table S1). Marginal (fixed effects only) and conditional (fixed + random effects) R2 values are also reported for each response variable. 
 
 ![image](https://user-images.githubusercontent.com/11825056/166707553-59cfcc84-74a5-4099-8573-4259025f0750.png)
@@ -14,27 +13,18 @@
 [![Figure_4.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_4.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_4.pdf) The net biodiversity effect partitioned into its component complementarity and selection effects for each response variable (rows) in multispecies treatments. Invertebrate abundance (a), biomass (b), and taxonomic richness (c), and macroalgal wet mass (d). Colors correspond to the three biodiversity effect components as indicated in the legend. Points were calculated from time-averaged response of each replicate over the final 4 weeks (n = 5 for all treatments) and all values were square root transformed with the original sign preserved (Loreau and Hector 2001). Axis scales for biodiversity effect components are equivalent for each response variable (within rows), but not across response variables (among rows). Responses above the black line at 0 are positive whereas those below are negative (see Appendix S1: Table S3 for results of t-tests).
 
 ![image](https://user-images.githubusercontent.com/11825056/166711735-d41205f2-fcb9-4213-a560-90c2282ae680.png)
-[![Figure_S1.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf) 
+[![Figure_S1.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S1.pdf) Schematic diagram of the experiment and sampling design. In (a), summary of the seven macroalgal treatments, representing 3 levels of macroalgal richness, following a substitutive design (i.e., total wet mass is held constant in each quadrant); (b) sampling procedure used over the course of the experiment for the weekly destructive sampling of the macroalgal treatments, replicated within each quadrant of each block; (c) picture showing an experimental block containing a 3 species nonnative treatment in each quadrant.
 
 ![image](https://user-images.githubusercontent.com/11825056/166711902-061fb6c1-a059-4f0b-957f-297bb1a3ebf3.png)
-[![Figure_S2.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf) 
+[![Figure_S2.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Figure_S2.pdf) Conceptual representation and justification of linkages in our hypothesized causal model. We expected that: (a) macroalgal richness increases macroalgal wet mass (Bruno et al. 2005, 2006, Stachowicz et al. 2008, Boyer et al. 2009); (b, c, and d) macroalgal richness increases invertebrate richness, biomass, and/or abundance through provisioning of unique habitats and/or food resources (Siemann et al. 1998, Haddad et al. 2009, Borer et al. 2012, Ebeling et al. 2014, 2018, Hertzog et al. 2016, Schuldt et al. 2019); (e, f, and g) macroalgal wet mass increases invertebrate richness, biomass, and/or abundance through provisioning of habitat and/or food writ large (Scherber et al. 2010, Borer et al. 2012, Ebeling et al. 2014, 2018, Hertzog et al. 2016); (h) invertebrate richness increases invertebrate biomass (Duffy et al. 2003, 2005); (i) invertebrate abundance increases invertebrate richness (Ebeling et al. 2014, Hertzog et al. 2016, Schuldt et al. 2019); and (j) invertebrate abundance increases invertebrate biomass, as adding individuals necessarily must add biomass.
 
+[![Table_S1.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv) Estimates of regression coefficients and their standard errors (SE) from the structural equation model (Fig. 1). Standardized coefficients are shown in bold when significant (P < 0.05). ![image](https://user-images.githubusercontent.com/11825056/166712297-53a91c20-fa74-49bb-bce1-70d109326566.png)
 
+[![Table_S2.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S2.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S2.csv) Pairwise planned contrasts for the effects of macroalgal treatment on invertebrate community composition (Fig. 3). Significant (P < 0.05) results from pairwise tests between treatments are bolded.
 
-## `Figure_S2.pdf`
+[![Table_S3.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S3.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S3.csv) Results of t-tests analyzing whether components of the biodiversity effect (Fig. 4) differ from zero in each treatment. Probability values appear in bold when significant (P < 0.05).
 
+[![Data_S1.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Data_S1.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Data_S1.csv) Tukey’s post-hoc comparisons (HSD) for the effects of macroalgal treatment on plant and consumer response metrics (Fig. 2). Probability values are presented for pairwise comparisons between macroalgal treatments. Significant (P < 0.05) differences between treatment means appear in boldface.
 
-
-[![Table_S1.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv) 
-## `Table_S1.csv`
-
-## `Table_S2.csv`
-
-## `Table_S3.csv`
-
-## `Data_S1.csv`
-
-## `Appendix_S1.pdf`
-Supporting Information for Ramus, A. P., J. S. Lefcheck, and Z. T. Long. 2022. Foundational biodiversity effects propagate through coastal food webs via multiple pathways.
-
-
+[![Appendix_S1.pdf](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Appendix_S1.pdf)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Appendix_S1.pdf) Supporting Information for Ramus, A. P., J. S. Lefcheck, and Z. T. Long. 2022. Foundational biodiversity effects propagate through coastal food webs via multiple pathways. 
+Tables S1-S3, Figures S1-S2
