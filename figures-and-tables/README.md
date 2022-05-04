@@ -19,8 +19,9 @@
 
 ## `Figure_S2.pdf`
 
-![table](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv)
 
+
+[![Table_S1.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/figures-and-tables/Table_S1.csv) 
 ## `Table_S1.csv`
 
 ## `Table_S2.csv`
@@ -30,4 +31,6 @@
 ## `Data_S1.csv`
 
 ## `Appendix_S1.pdf`
+Supporting Information for Ramus, A. P., J. S. Lefcheck, and Z. T. Long. 2022. Foundational biodiversity effects propagate through coastal food webs via multiple pathways.
+
 
