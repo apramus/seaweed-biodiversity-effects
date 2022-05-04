@@ -72,7 +72,7 @@ Code to analyze the effects of macroalgal identity and richness on the net biodi
 ### [![4b-calculate-and-fit-partition.R](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4b-calculate-and-fit-partition.R)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4b-calculate-and-fit-partition.R) 
 This code works as a 'manual loop' inside code 4a above, for lack of a better description. It calculates and partitions the net biodiversity effect into its component complementarity and selection effects following Loreau & Hector (2001) *Nature*. 
 
-### [![4c-t-test-on-partition-components.R](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4c-t-test-on-partition-components.R)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4c-t-test-on-partition-components.R) 
+### [![4c-t-tests-on-partition-components.R](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4c-t-tests-on-partition-components.R)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/4c-t-tests-on-partition-components.R) 
 This code performs one sample *t*-tests to assess whether the net biodiversity and its component selection and complementarity effects in each treatment statistically differ from 0 (as negative values are interpreted as "no effect") and generates a summary table of the results (Table S3). These *t*-tests are performed on the square-root transformed biodiversity effect components for each consumer response variable.
 
 ## Figures
