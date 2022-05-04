@@ -2,6 +2,7 @@
 [//]: # (Repo for Ramus & Long In Review)
 [//]: # (Additive partition of seaweed biodiversity effects across trophic levels)
 # Seaweed biodiversity effects across trophic levels
+# Repo for Ramus et al. In Review
 [![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
@@ -79,3 +80,7 @@ This code works as a 'manual loop' inside code 4a above, for lack of a better de
 ## `4c-t-test-on-partition-components.R`
 
 This code performs one sample *t*-tests to assess whether the net biodiversity and its component selection and complementarity effects in each treatment statistically differ from 0 (as negative values are interpreted as "no effect") and generates a summary table of the results (Table S4). These *t*-tests are performed on the square-root transformed biodiversity effect components for each consumer response variable.
+
+# Figures
+
+# Supporting Information
