@@ -4,6 +4,7 @@
 
 ![5%20figure](5%20figure.png)
 
+## `Figure_1.pdf`
 Final observed structural equation model relating experimentally manipulated macroalgal richness to properties of both the macroalgae and associated invertebrate consumer communities (see Appendix S1: Figure S2 for the null hypothesized model). Arrows represent directed effects (i.e., the flow of causality from one variable to another). Standardized regression coefficients are shown next to the arrows in units of standard deviation of the mean, such that they can be compared fairly across response variables of differing units. Arrow widths are scaled by the standardized coefficients (see Appendix S1: Table S1). Marginal (fixed effects only) and conditional (fixed + random effects) R2 values are also reported for each response variable. 
 
 ## `Figure_2.tif` 
