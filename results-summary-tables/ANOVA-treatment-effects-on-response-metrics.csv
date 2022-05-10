@@ -1,0 +1,21 @@
+"","variable","DFnum","DFdnm","SSnum","SSdnm","MSnum","MSdnm","f","p","panel","ProDivTrtType","ProDivTrtID","mean","fvalue","pvalue","lab","panel2","transform"
+"Invertebrate
+abundance
+(#)","Invertebrate
+abundance
+(#)",6,28,40635.087,9485.136,6772.515,338.755,19.99,6.15017216275676e-09,"a",Inf,Inf,-Inf,"==19.99","<0.001","italic(F)[6*','*28]==19.99*','~~ italic(P)<0.001","a","none"
+"Invertebrate
+biomass
+(g)","Invertebrate
+biomass
+(g)",6,28,0.756,0.329,0.126,0.012,10.72,3.44124913200191e-06,"b",Inf,Inf,-Inf,"==10.72","<0.001","italic(F)[6*','*28]==10.72*','~~ italic(P)<0.001","b","none"
+"Invertebrate
+richness
+(# of taxa)","Invertebrate
+richness
+(# of taxa)",6,28,57.666,12.528,9.611,0.447,21.48,2.77368678587636e-09,"c",Inf,Inf,-Inf,"==21.48","<0.001","italic(F)[6*','*28]==21.48*','~~ italic(P)<0.001","c","none"
+"Macroalgal
+wet mass
+(g)","Macroalgal
+wet mass
+(g)",6,28,946.652,872.351,157.775,31.155,5.06,0.00125014983483486,"d",Inf,Inf,-Inf,"==5.06","<0.01","italic(F)[6*','*28]==5.06*','~~ italic(P)<0.01","d","none"
