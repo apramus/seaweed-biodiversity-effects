@@ -1,8 +1,8 @@
 ### Table Captions
 
-[![ANOVA-effects-on-partitioned-responses.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-partitioned-responses.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-partitioned-responses.csv) 
+[![ANOVA-effects-on-partition.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-partition.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-partition.csv) 
 
-[![ANOVA-effects-on-response-metrics.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-response-metrics.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-effects-on-response-metrics.csv) 
+[![ANOVA-treatment-effects-on-response-metrics.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-treatment-effects-on-response-metrics.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-treatment-effects-on-response-metrics.csv) 
 
 [![PERMANOVA.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv) 
 
