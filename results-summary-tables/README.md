@@ -4,7 +4,7 @@
 
 [![ANOVA-treatment-effects-on-response-metrics.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-treatment-effects-on-response-metrics.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/ANOVA-treatment-effects-on-response-metrics.csv) 
 
-[![PERMANOVA.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv) 
+[![PERMANOVA.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/PERMANOVA.csv) Results of PERMANOVA analyzing treatment differences in invertebrate community composition among macroalgal treatments.
 
 [![Table-S1.csv](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/Table-S1.csv)](https://github.com/apramus/seaweed-biodiversity-effects/blob/main/results-summary-tables/Table-S1.csv) Estimates of regression coefficients and their standard errors (SE) from the structural equation model (Fig. 1). Standardized coefficients are shown in bold when significant (P < 0.05).
 
