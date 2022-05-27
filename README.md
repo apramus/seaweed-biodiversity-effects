@@ -4,7 +4,7 @@
 
 This repository contains the data and code used to replicate the analysis and figures presented in
 
-* Ramus AP, Lefcheck JS, Long ZT (In Review) Foundational biodiversity effects propagate through coastal food webs via multiple pathways. *Journal* Issue:Page-Range. [doi link]
+* Ramus AP, Lefcheck JS, Long ZT. 2022. Foundational biodiversity effects propagate through coastal food webs via multiple pathways. *Ecology* Issue:Page-Range. [doi link]
 
 `The authors request that you cite the above article when using these data or modified code to prepare a publication.`
 
