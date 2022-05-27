@@ -2,10 +2,6 @@
 
 [![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
 
-[![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5539881.svg)](https://doi.org/10.5281/zenodo.5539881)
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5528270.svg)](https://doi.org/10.5281/zenodo.5528270)
 
 This repository contains the data and code used to replicate the analysis and figures presented in
