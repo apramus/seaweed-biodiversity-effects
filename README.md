@@ -2,15 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/338374883.svg)](https://zenodo.org/badge/latestdoi/338374883)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5528270.svg)](https://doi.org/10.5281/zenodo.5528270)
-
-This repository contains the data and code used to replicate the analysis and figures presented in
+This repository contains the data and code used for the article
 
 * Ramus AP, Lefcheck JS, Long ZT (2022) Foundational biodiversity effects propagate through coastal food webs via multiple pathways. *Ecology* 
 
 [//]: # (Issue:Page-Range. [doi link])
 
-`The authors request that you cite the above article or the Zenodo DOI when using these data or modified code to prepare a publication.`
+`The authors request that you cite the above article or the Zenodo repository when using these data or modified code to prepare a publication.`
 
 The files contained by this repository are numbered sequentially in the order they appear in our data analysis and figure generation workflow, each of which is described below. To use our code, you will need the latest version of R installed with the `cowplot`, `dplyr`, `ecodist`, `egg`, `ggh4x`, `ggplot2`, `MASS`, `nlme`, `piecewiseSEM`, `plyr`, `reshape2`, `tidyverse`, and `vegan` libraries, including their dependencies. 
 
